@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif; 
+    font-size: 2rem;
+}
+
+#top-main-container{
+/*    background-image: url(../images/354.jpg); */
+    background-color: #056674;
+    height: 735px;
+    border: none;
+    text-align: center;
+    position: relative;
+}
+
+.top-section-content{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 350px;
+    color: #e0ece4;
+    position: relative;
+}
+
+.top-section-content h1{
+    margin: 0;
+/*    color: #3282b8;*/
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Sacramento', cursive;
+}
+
+.top-section-content p{
+/*    color: #3282b8;*/
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#personal-info-container{
+    height: auto;
+    min-height: 18.75em;
+    background-color: #ffffff;
+}
+
+.info-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0f4c75;
+}
+
+.my-profile-pic{
+    height: 18.75em;
+    width: 50%;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.left-align{
+    margin-top: 30px;
+}
+
+#online-bussiness{
+    background-image: url(../images/13594.jpg);
+    background-size: cover;
+    image-resolution: snap;
+    opacity: 90%;
+    background-repeat: no-repeat;
+    height: 700px;;
+    border: none;
+    padding-top: 300px;
+}
+
+.online-bussiness-content{
+    color: #ff2e63;
+    background: #252a34;
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
