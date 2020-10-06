@@ -2,36 +2,33 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif; 
+    width: 100%;
 }
 
 #top-main-container{
-/*    background-image: url(../images/354.jpg); */
     background-color: #056674;
-    height: 750px;
+    height: 46rem;
     border: none;
     text-align: center;
-    background-position: 50% 50%;
 }
 
 .top-section-content{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 350px;
+    padding-top: 20rem;
     color: #e0ece4;
     position: relative;
 }
 
 .top-section-content h1{
     margin: 0;
-/*    color: #3282b8;*/
     font-size: 3rem;
     font-weight: 600;
     font-family: 'Sacramento', cursive;
 }
 
 .top-section-content p{
-/*    color: #3282b8;*/
     font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
@@ -54,7 +51,7 @@ body{
 }
 
 .my-profile-pic{
-    height: 18.75em;
+    height: 18.75rem;
     width: 50%;
     border-radius: 100%;
     margin-left: auto;
@@ -150,4 +147,27 @@ body{
     font-weight: bolder;
     color: #ffffff;
     margin-right: 0;
+}
+
+
+/*Media Query CSS */
+
+@media (max-width: 900px){
+   .top-section-content h1{
+       font-size: 2rem;
+    }
+    
+    .top-section-content p{
+        font-size: 1rem;
+    }
+    .online-bussiness-content{
+        width: 90%;
+    }
+    .online-bussiness-content h1{
+        font-size: 26px;
+    }
+    
+    .my-profile-pic{
+        width: 80%;
+    }
 }
